@@ -45,7 +45,7 @@
     color: #030302;
     text-align: center;
     padding: 1px;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
         }

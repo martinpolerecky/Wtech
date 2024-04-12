@@ -12,17 +12,78 @@
     justify-content: space-around;
     width: 80vw;
     position: relative;
-    left: 10%;
+    left: 10vw;
 }
 
 #base_div > div {
-    display: flex;
-    margin: 1%;
+
+    display: block;
+    margin: 1vw;
+    position: relative;
+    border-radius: 11px
 }
 
+#base_div > div:hover{
+    background-color: #f7ca18;
+}
 
-div > div > img{
+div > div > a > div > img{
+    border-radius: 10px;
+    display: block;
     width: 20vw;
-    height: 100%;
+    height: 10vw;
+}
 
+.title{
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.rating{
+    font-size: 1vw;
+    padding-left: 0.1vw;
+}
+
+.buy_button{
+    border-radius: 5px;
+    display: flex;
+    right: 0;
+    top: 10.2vw;
+    padding: 0.25vw;
+    margin: 0.25vw;
+    position: absolute;
+    background-color: royalblue;
+    font-size: 1.75vw;
+    border: none;
+}
+
+.buy_button:hover{
+    background-color: red;
+    color: white;
+}
+
+div > div > div > button{
+    color: lightskyblue;
+    background-color: steelblue;
+    border-radius: 3px;
+    padding: 0.1vw;
+    margin: 0.2vw;
+    border: none;
+    font-size: 0.9vw;
+}
+
+.tag_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+div > div > div > button:hover{
+    color: white;
+    background-color: lightskyblue;
 }
