@@ -1,0 +1,28 @@
+#1st_div{
+    display: flex;
+    justify-content: center;
+}
+
+#base_div {
+    display: flex;
+    flex-flow: row wrap;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    justify-content: space-around;
+    width: 80vw;
+    position: relative;
+    left: 10%;
+}
+
+#base_div > div {
+    display: flex;
+    margin: 1%;
+}
+
+
+div > div > img{
+    width: 20vw;
+    height: 100%;
+
+}
