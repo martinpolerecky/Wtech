@@ -1,9 +1,4 @@
-#1st_div{
-    display: flex;
-    justify-content: center;
-}
-
-#base_div {
+.base_store_div {
     display: flex;
     flex-flow: row wrap;
     border-style: solid;
@@ -14,20 +9,17 @@
     position: relative;
     left: 10vw;
 }
-
-#base_div > div {
-
+.store_div {
     display: block;
     margin: 1vw;
     position: relative;
-    border-radius: 11px
+    border-radius: 11px;
 }
-
-#base_div > div:hover{
+.store_div:hover{
     background-color: #f7ca18;
 }
 
-div > div > a > div > img{
+.store_img{
     border-radius: 10px;
     display: block;
     width: 300px;
@@ -38,7 +30,6 @@ div > div > a > div > img{
     text-decoration: none;
     color: black;
     font-size: 30px;
-
 }
 
 .title:hover{
@@ -52,23 +43,23 @@ div > div > a > div > img{
 
 .buy_button{
     border-radius: 5px;
-    display: flex;
     right: 0;
     top: 155px;
     padding: 5px;
     margin: 5px;
     position: absolute;
-    background-color: royalblue;
+    background-color: steelblue;
     font-size: 24px;
     border: none;
+    color: lightskyblue;
 }
 
 .buy_button:hover{
-    background-color: red;
     color: white;
+    background-color: lightskyblue
 }
 
-div > div > div > button{
+.tag_button{
     color: lightskyblue;
     background-color: steelblue;
     border-radius: 3px;
@@ -83,7 +74,111 @@ div > div > div > button{
     padding: 3px;
 }
 
-div > div > div > button:hover{
+.tag_button:hover{
+    color: white;
+    background-color: lightskyblue;
+}
+.base_wishlist_div {
+    display: flex;
+    flex-flow: column;
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    justify-content: space-around;
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+}
+.wishlist_div {
+    display: flex;
+    margin: 1vw;
+    position: relative;
+    border-radius: 11px;
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+@media (max-width: 860px) {
+    .wishlist_div{
+        display: block;
+    }
+    .wishlist_tag_container{
+        position: static;
+    }
+
+    .wishlist_buy_button_container{
+        right:unset;
+        left:0;
+    }
+}
+
+.wishlist_img{
+    border-radius: 10px;
+    display: inline;
+    width: 350px;
+    height: 200px;
+}
+
+.wishlist_title{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.wishlist_title:hover{
+    text-decoration: underline;
+}
+
+.wishlist_buy_button_container{
+    display: flex;
+    position: absolute;
+    margin: auto;
+    right: 10px;
+    background-color: royalblue;
+    border-radius: 5px;
+}
+.wishlist_buy_button_container > label{
+    margin: 5px;
+    padding: 5px;
+    font-size: 24px;
+}
+.wishlist_buy_button{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: forestgreen;
+    font-size: 24px;
+    border: none;
+    color: lightgreen;
+}
+
+.wishlist_buy_button:hover{
+    color: white;
+    background-color: limegreen;
+}
+
+.wishlist_tag_container{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 10px;
+}
+.wishlist_element_inner_div{
+    padding-left: 5px;
+}
+
+.wishlist_remove{
+    border-radius: 5px;
+    right: 10px;
+    bottom: 10px;
+    padding: 5px;
+    position: absolute;
+    background-color: steelblue;
+    font-size: 18px;
+    border: none;
+    color: lightskyblue;
+}
+
+.wishlist_remove:hover{
     color: white;
     background-color: lightskyblue;
 }
