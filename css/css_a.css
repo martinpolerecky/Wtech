@@ -92,7 +92,7 @@
 .wishlist_div {
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 9.1cm auto 30%;
+    grid-template-columns: 9.1cm auto auto;
     margin: 1vw;
     border-radius: 11px;
     background-color: cornflowerblue;
@@ -180,4 +180,28 @@
 .wishlist_remove:hover{
     color: white;
     background-color: lightskyblue;
+}
+
+.game_base_div{
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+}
+.game_title{
+    font-size: 24px;
+    color: #f0f0f0;
+}
+
+.game_showcase_container{
+    display: grid;
+    grid-template-columns: 65% 32%;
+    justify-content: space-between;
+
+}
+
+.game_showcase_right > *{
+    display: block;
 }
