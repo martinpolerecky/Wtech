@@ -90,37 +90,36 @@
     left: 10vw;
 }
 .wishlist_div {
-    display: flex;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 9.1cm auto 30%;
     margin: 1vw;
-    position: relative;
     border-radius: 11px;
     background-color: cornflowerblue;
     padding: 10px;
 }
-@media (max-width: 860px) {
+@media (max-width: 1040px) {
     .wishlist_div{
-        display: block;
-    }
-    .wishlist_tag_container{
-        position: static;
+        display: flex;
+        flex-flow: row wrap;
     }
 
-    .wishlist_buy_button_container{
-        right:unset;
-        left:0;
-    }
 }
-
 .wishlist_img{
     border-radius: 10px;
-    display: inline;
-    width: 350px;
-    height: 200px;
+    width: 9.1cm;
 }
 
+.wishlist_element_text_container{
+    position: relative;
+    padding-left: 5px;
+    display: grid;
+    grid-template-rows: 33% auto 33% ;
+}
 .wishlist_title{
     text-decoration: none;
     color: black;
+    display: block;
     font-size: 30px;
 }
 
@@ -128,13 +127,16 @@
     text-decoration: underline;
 }
 
+.wishlist_element_button_container{
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
 .wishlist_buy_button_container{
-    display: flex;
-    position: absolute;
-    margin: auto;
-    right: 10px;
+    display:flex;
+    flex-direction: row-reverse;
     background-color: royalblue;
     border-radius: 5px;
+    margin: auto 0 0 auto;
 }
 .wishlist_buy_button_container > label{
     margin: 5px;
@@ -144,7 +146,6 @@
 .wishlist_buy_button{
     border-radius: 5px;
     padding: 5px;
-    margin: 5px;
     background-color: forestgreen;
     font-size: 24px;
     border: none;
@@ -158,24 +159,22 @@
 
 .wishlist_tag_container{
     display: flex;
-    justify-content: space-around;
-    position: absolute;
-    bottom: 10px;
-}
-.wishlist_element_inner_div{
-    padding-left: 5px;
+    align-items: flex-end;
 }
 
+.wishlist_remove_container{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+}
 .wishlist_remove{
     border-radius: 5px;
-    right: 10px;
-    bottom: 10px;
     padding: 5px;
-    position: absolute;
     background-color: steelblue;
     font-size: 18px;
     border: none;
     color: lightskyblue;
+
 }
 
 .wishlist_remove:hover{
