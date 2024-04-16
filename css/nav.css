@@ -17,8 +17,8 @@
             padding: 10px;
             text-align: center;
             display: flex;
-            align-items: center; /* Align items vertically */
-            justify-content: center; /* Center items horizontally */
+            align-items: center;
+            justify-content: center;
         }
         nav {
             background-color: #000000;
