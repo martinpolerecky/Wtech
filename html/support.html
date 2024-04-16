@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support</title>
+    
+    <link rel="stylesheet" href="../css/about.css">
+    <style>
+        /*this snippet is hella cursed ngl*/
+        body{
+            background-color: rgb(30,62,88);
+        }
+        ul{
+            background-color: rgb(0,0,0);
+            padding: 10px;
+        }
+        nav{
+            padding:0%
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="../homepage.html">
+                <img src="../images/LOGO.png" alt="LIDL" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+            </a>
+            <a href="../homepage.html"> 
+                <img src="../images/LIDL.png" style="max-width: 80%; height: auto; display: block; margin: 0 auto;">
+            </a>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><strong><a href="../homepage.html">Store</a></strong></li>
+            <li><strong><a href="../html/community.html">Community</a></strong></li>
+            <li><strong><a href="../html/about.html">About</a></strong></li>
+            <li><strong><a href="../html/support.html">Support</a></strong></li>
+        </ul>
+    </nav>
+    <main>
+    <div class = 'feedback'>
+    <br>
+    <br>
+    <h1 id="hs">
+        Steam z Lidlu not working properly?
+    </h1>
+    <br>
+    <p id="support"> You might want to check if your system can run Steam z Lidlu in the first place. <br>Click <a href="system_req.html">here</a> to see the system requirements</p>
+    <br>
+    <h2 id="hs">
+        Contact us
+    </h2>
+    <br>
+    <p id="support">
+        Still experiencing difficulties? Fill out the form below and we'll get back to you ASAP
+    </p>
+    <br>
+    
+    <form name ="support" id="support" onsubmit="return validateForm()">
+        <label id="test"for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><span id="name-error" ckass = "error-message" ></span>><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><span id="email-error"class="error-message"></span><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Submit" name="message"><span id="message-error" class="error-message"></span>
+    </form>
+    
+    <br>
+    <br>
+    
+    <h3 id="hs">
+        Found a bug? 
+    </h3>
+    <br>
+    <p id="support">
+        Report it here and we'll look into it (or not)   
+    </p>
+    <br>
+    <form name = "bug" id="bug" onsubmit="return validateBug()">
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Submit" name="bug_submission"><span id="bug-error" class="error-message"></span>>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </div>
+    </main>
+    
+    <img id = 'wrench'src="../images/wrench.png" height="50px"></img>
+    <img id = 'mail'src="../images/mail.png" height="50px"></img>
+    <img id = 'tech'src="../images/LOGO.png" height="50px"></img>
+    <footer>
+        <div class="logo-container">
+            <a href="../homepage.html">
+                <img src="../images/LOGO.png" alt="LIDL">
+            </a>
+        </div>
+    </footer>
+<script src = "../js/support.js"></script>
+</body>
+</html>
