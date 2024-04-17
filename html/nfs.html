@@ -1,37 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Need For Speed</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Need For Speed</title>
+        <link rel="stylesheet" href="../css/games_m.css">
+        <style>
+          body{
+              background-color: rgb(27, 40, 56);
+          }
+          ul{
+              background-color: rgb(0,0,0);
+              padding: 10px;
+          }
+          nav{
+              padding:0%
+          }
+          h1{
+              font-size: 30px;
+          }
+      </style>
+      </head>
 <body>
-    <style>
-        body {
-            background-image: url('../images/nfs.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-        p {
-            color: white;
-            font-size: 20px;
-            font-family: Arial, sans-serif;
-            margin-left: 20px;
-            margin-right: 20px;
-        }
-    
-    </style>
-    <p>Need for Speed is a series of racing video games developed by Ghost Games and published by Electronic Arts. The games are known for their high-speed racing action, realistic graphics, and extensive car customization options. The series has been around since 1994 and has become one of the best-selling video game franchises of all time.</p>
-    <p>The main focus of the Need for Speed games is on illegal street racing, with players competing against each other in high-stakes</p>
-    <p>Our Need for Speed emulator lets you experience the thrill of high-speed racing under the influence from the comfort of your own home!</p>
-</body>
-<p>Disclaimer: This emulator is for entertainment purposes only and should not be used to encourage or condone illegal activity. <br>
+    <header>
+    <div class="logo-container">
+        <a href="../homepage.html">
+            <img src="../images/LOGO.png" alt="LIDL" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+        </a>
+        <a href="../homepage.html"> 
+            <img src="../images/LIDL.png" style="max-width: 80%; height: auto; display: block; margin: 0 auto;">
+        </a>
+    </div>
+    </header>
+    <nav>
+    <ul>
+      <li><strong><a href="../homepage.html">Store</a></strong></li>
+      <li><strong><a href="../html/profile.html">Profile</a></strong></li>
+      <li><strong><a href="../html/about.html">About</a></strong></li>
+      <li><strong><a href="../html/support.html">Support</a></strong></li>
+    </ul>
+    </nav>
+    <main>
+    <br>
+    <h1> Need For Speed: Dobšinský kopec</h1>
+    <br>
+    <div class="text">
+    <p id="nfs">Need for Speed is a series of racing video games developed by Ghost Games and published by Electronic Arts. The games are known for their high-speed racing action, realistic graphics, and extensive car customization options. 
+    <br>The series has been around since 1994 and has become one of the best-selling video game franchises of all time.
+    The main focus of the Need for Speed games is on illegal street racing, with players competing against each other in high-stakes
+    Our Need for Speed emulator lets you experience the thrill of high-speed racing under the influence from the comfort of your own home!
+    <br>
+    <br>
+    Disclaimer: This emulator is for entertainment purposes only and should not be used to encourage or condone illegal activity. <br>
     Make sure you do all your racing in the game. On the streets, drive safely and responsibly and wear your seatbelt.
-</p>
-<video width="320" height="240" controls>
+    </p>
+    </div>
+    </main>
+    <div class ="trailer_nfs">
+    <button id ="purchase" onclick="window.location.href='purchase.html'">Buy</button>
+    <video width="480" height="380" controls>
     <source src="../images/nfs_trailer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-  </video> 
-
-
+    Your browser does not support the video tag.
+    </video>
+    <img id = "nfs" src="../images/nfs.jpg" alt="nfs">
+    <img id = "nfs2" src="../images/nfs2.jpg" alt="nfs">
+    <p id="reviews_nfs">Recent reviews: Mostly positive (320)
+    <br>
+    All Reviews: Very positive (1984)</p>  
+    </div>
+  <footer>
+    <div class="logo-container">
+        <a href="../homepage.html">
+            <img src="../images/LOGO.png" alt="LIDL">
+        </a>
+    </div>
+</footer>
+</body>
 
 </html>
