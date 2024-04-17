@@ -1,39 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>System Requirements</title>
+    <link rel="stylesheet" href="../css/about.css">
+    <style>
+        body{
+            background-color: rgb(27, 40, 56);
+        }
+        ul{
+            background-color: rgb(0,0,0);
+            padding: 10px;
+        }
+        ul#req{
+            background-color: rgb(27, 40, 56);
+            padding: 10px;
+        }
+        nav{
+            padding:0%
+        }
+    </style>
+    
 </head>
 <body>
-    <p>Minimum requirements for Windows:</p>
-    <ul>
+    <header>
+        <div class="logo-container">
+            <a href="../homepage.html">
+                <img src="../images/LOGO.png" alt="LIDL" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+            </a>
+            <a href="../homepage.html"> 
+                <img src="../images/LIDL.png" style="max-width: 80%; height: auto; display: block; margin: 0 auto;">
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><strong><a href="../homepage.html">Store</a></strong></li>
+            <li><strong><a href="../html/community.html">Community</a></strong></li>
+            <li><strong><a href="../html/about.html">About</a></strong></li>
+            <li><strong><a href="../html/support.html">Support</a></strong></li>
+        </ul>
+    </nav>
+    <div class = 'win'>
+    <h2 id="sys">Minimum requirements for Windows:</h2>
+    <ul id="req">
         <li>Windows 10 or 11(64-bit OS required)</li>
         <li>Processor: Intel(R) Core(TM) i5-7500 </li>
         <li> NVIDIA GeForce GTX 1050</li>
         <li> Storage: 15 GB available space</li>
         <li> Memory: 8GB RAM</li>
     </ul>
-    <p>Minimum requirements for Mac</p>
-    <ul>
+    </div>
+    <div class = 'mac'>
+    <h2 id="sys">Minimum requirements for Mac</h2>
+    <ul id ="req">
         <li>macOS 12.0 or later</li>
         <li>8 Cores, 3.6 GHz processor
-            9th Generation Intel®
+            9th Generation <br> Intel®
             Core™ Coffee Lake
             Apple® M1 Max</li>
         <li> Memory: 8GB RAM</li>
     </ul>
-
-    <p>Minimum requirements for Linux:</p>
-    <ul>
+    </div>
+    <div class = 'linux'>
+    <h2 id="sys">Minimum requirements for Linux:</h2>
+    <ul id="req">
         <li>Ubuntu 20.04 LTS</li>
         <li>OpenGL 3.3-compatible GPU </li>
         <li> X window system or Wayland</li>
         <li> Storage: 15 GB available space</li>
         <li> Memory: 8GB RAM</li>
-    <p>For more information, see the <a href="http://www.example.com/docs/system-requirements">system requirements</a> page.</p>
+    </ul>
+    </div>    
 
-
+    <img id = "win"src="../images/windows.png" alt="windows">
+    <img id = "mac" src="../images/apple.png" alt="mac">
+    <img id = "linux"src="../images/linux.png" alt="linux">
+    <footer>
+        <div class="logo-container">
+            <a href="../homepage.html">
+                <img src="../images/LOGO.png" alt="LIDL">
+            </a>
+        </div>
+    
+    </footer>
 </body>
-
-
-
 </html>

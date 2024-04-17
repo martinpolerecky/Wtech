@@ -68,6 +68,9 @@
             text-align: left;
             background-color: rgb(27, 40, 56);
         }
+        h2#sys{
+            transform: translate(-2%, 0%);
+        }
         p#about {
             color: white;
             text-align: justify;
@@ -126,6 +129,42 @@
             margin: 0;
             background-color: rgb(27, 40, 56);
         }
+        div.win{
+            position: relative;
+            top: 70%; 
+            left: 50%;
+            transform: translate(-40%, 235%);
+            width: 120%;
+            padding: 0 250px;
+            margin: 0;
+            background-color: rgb(27, 40, 56);
+            line-height: 1.5;
+            color: white;
+        }
+        div.mac{
+            position: relative;
+            top: 70%; 
+            left: 50%;
+            transform: translate(-20%, 157%);
+            width: 50%;
+            padding: 0 20px;
+            margin: 0;
+            background-color: rgb(27, 40, 56);
+            color: white;
+            line-height: 1.5;
+        }
+        div.linux{
+            position: relative;
+            top: 70%; 
+            left: 50%;
+            transform: translate(15%, 50%);
+            width: 80%;
+            padding: 0 100px;
+            margin: 0;
+            background-color: rgb(27, 40, 56);
+            color: white;
+            line-height: 1.5;
+        }
 
         img#gaben {
             display: block;
@@ -167,6 +206,33 @@
             height: 250px;
             transform: translate(250%, -360%);
             
+        }
+        img#win{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px;
+            height: 250px;
+            transform: translate(-200%, -170%);
+            background-color: rgb(27, 40, 56);
+        }
+        img#mac{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 450px;
+            height: 250px;
+            transform: translate(0%, -270%);
+            background-color: rgb(27, 40, 56);
+        }
+        img#linux{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 250px;
+            height: 250px;
+            transform: translate(200%, -365%);
+            background-color: rgb(27, 40, 56);
         }
         label{
             color: white;
