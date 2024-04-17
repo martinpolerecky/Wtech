@@ -7,46 +7,6 @@
     <link rel="stylesheet" href="../css/nav.css">
     <style>
         
-        #player-info img {
-            width: 150px; 
-            height: auto;
-            display: block;
-            margin: 0 auto;
-            border: 8px solid #000000; 
-            border-radius: 8px; 
-            float: left; /* Pridaný štýl pre posunutie profilovej fotky vľavo */
-            margin-right: 25px; /* Pridaný štýl pre medzeru medzi profilovou fotkou a textom */
-        }
-
-        #player-info h2, #player-info p {
-            text-align: left; 
-            color: #fff; 
-        }
-
-        .game {
-            display: block;
-            width: 100%;
-            text-align: left;
-            margin-bottom: 15px; /* Prispôsobené, aby sa hry zoradili pod seba s medzerou */
-        }
-
-        .game img {
-            width: 40%; 
-            height: auto;
-        }
-
-        .game p {
-            color: rgb(253, 253, 253); 
-        }
-
-        main {
-            text-align: left; 
-        }
-
-        .game button {
-            padding: 10px 20px; 
-            font-size: 16px; 
-        }
 
         body {
             font-family: Arial, sans-serif;
@@ -69,16 +29,51 @@
             color: #e9e8e8;
         }
 
-        h2 {
+        h2, h3 {
             color: #ccc;
             text-align: left;
         }
-        h3 {
-            text-align: right;
-            color: #ccc;
+
+        #player-info img {
+            width: 115px; 
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border: 4px solid #000000; 
+            border-radius: 8px; 
+            float: left; 
+            margin-right: 25px; 
         }
 
-        
+        #player-info h2, #player-info p {
+            text-align: left; 
+            color: #fff; 
+        }
+
+        .game {
+            display: block;
+            width: 100%;
+            text-align: left;
+            margin-bottom: 15px; 
+        }
+
+        .game img {
+            width: 40%; 
+            height: auto;
+        }
+
+        .game p {
+            color: rgb(253, 253, 253); 
+        }
+
+        main {
+            text-align: left; 
+        }
+
+        .game button {
+            padding: 10px 20px; 
+            font-size: 16px; 
+        }
     </style>
 </head>
 
@@ -89,7 +84,7 @@
                 <img src="../images/LOGO.png" alt="LIDL" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
             </a>
             <a href="../homepage.html"> 
-                <img src="../images/LIDL.png" style="max-width: 80%; height: auto; display: block; margin: 0 auto;">
+                <img src="../images/LIDL.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
             </a>
         </div>
     </header>
@@ -106,51 +101,82 @@
     <div id="profile">
         
         <div id="player-info">
-            <img src="../images/profilepicture.jpg" alt="Avatar">
-            <div>
-                <h2>tryhard bot</h2>
-                <p>Country: USA</p>
-                <p2>Level: 32</p2>
+           
+            <div id="player-info">
+                <img src="../images/profilepicture.jpg" alt="Avatar">
+                <div>
+                    <h2 style="margin-bottom: 10px;">tryhard bot</h2>
+                    <p>Country: USA</p>
+                    <p>Level: 32</p>
+                </div>
             </div>
+            
         </div>
         <br>
         <br>
         <br>
         <br>
+
+        <hr>
         <br>
         <br>
-        <br>
-        <br>
+        
         <div id="game-list">
-            <strong><h2>Games</h2></strong>
+
+            <div id="friends" style="text-align: right;">
+                <h3 style="text-align: right; margin-right: 110px;">Badges</h3>
+                <br>
+                <img style="text-align: right; margin-right: 0px;" src="../images/badges1.png">
+                <img style="text-align: right; margin-right: 0px;" src="../images/badges2.png">
+                <img style="text-align: right; margin-right: 0px;" src="../images/badges3.png">
+                <br>
+                <br>
+                <h3 style="text-align: right; margin-right: 92px;">Inventory</h3>
+            </div>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <u style="color: white;"><strong><h3 style="text-align: left;">Games you last played</h3></strong></u>
+            <br>
             <br>
             <div class="game">
-                <img src="../images/csgoprofile.jpg" alt="Game 1">
-                <p>3600 hours</p>
+                <img src="https://steamcdn-a.akamaihd.net/steam/apps/730/capsule_184x69.jpg" alt="Game 1"> <p style="text-align: right;">3600 hours</p>
+                
             </div>
             <div class="game">
-                <img src="../images/rustprofile.jpg" alt="Game 2">
-                <p>9600 hours</p>
+                <img src="https://steamcdn-a.akamaihd.net/steam/apps/252490/capsule_184x69.jpg" alt="Game 2"> <p style="text-align: right;">9600 hours</p>
+                
             </div>
             <div class="game">
-                <img src="../images/pubgprofile.jpg" alt="Game 3">
-                <p>1896 hours</p>
+                <img src="https://steamcdn-a.akamaihd.net/steam/apps/578080/capsule_184x69.jpg" alt="Game 3"> <p style="text-align: right;">1896 hours</p>
+                
             </div>
         </div>
-        
+
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+
+        <strong><h3>Comments</h3></strong>
+        <br>
+        <br>
+        <p style="color: snow;"><strong>James </strong> :  nice wh bot</p>
+        <br>
+        <p style="color: snow;"><strong>tr1n4 </strong> :  good teameit</p>
+        <br>
+        <p style="color: snow;"><strong>11ptwi </strong> :  -rep</p>
+    
+
         <div id="friends" style="text-align: right;">
-            <h3>Badges</h3>
-            
-            <h3> Inventory </h3>
+        
         </div>
     </div>
 
-    <footer>
-        <div class="logo-container">
-            <a href="../homepage.html">
-                <img src="../images/LOGO.png" alt="LIDL">
-            </a>
-        </div>
-    </footer>
+    
 </body>
 </html>
