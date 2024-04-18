@@ -66,6 +66,8 @@
     padding: 3px;
     border: none;
     font-size: 14px;
+    margin-right: 2px;
+    margin-bottom: 2px;
 }
 
 .tag_container{
@@ -159,6 +161,7 @@
 
 .wishlist_tag_container{
     display: flex;
+    flex-flow: row wrap;
     align-items: flex-end;
 }
 
@@ -183,16 +186,13 @@
 }
 
 .game_base_div{
-    border-style: solid;
-    border-width: thick;
-    border-color: black;
     width: 80vw;
     position: relative;
     left: 10vw;
 }
 .game_title{
     font-size: 24px;
-    color: #f0f0f0;
+    color: lightsteelblue;
 }
 
 .game_showcase_container{
@@ -239,6 +239,67 @@
     background-color: limegreen;
 }
 
-.game_editions > div{
+.game_reqs{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+}
 
+.game_reqs > label{
+    color: lightsteelblue;
+    display: block;
+    margin: 2px 0 2px 0;
+}
+
+.rating_container{
+    margin-top: 10px;
+    background-color: royalblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.rating_container_label{
+    margin: 5px 0 5px 0;
+    font-size: 24px;
+}
+form{
+    display: grid;
+    grid-template-columns: 75% 20%;
+    justify-content: space-around;
+}
+
+form > div > textarea {
+    width: 100%;
+    background-color: #1c344a;
+    border-radius: 10px;
+    color: lightsteelblue;
+}
+
+.rating_container_lower{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.rating_container_upper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.send_button{
+    border-radius: 5px;
+    margin: auto 20px;
+    padding: 5px;
+    background-color: forestgreen;
+    font-size: 24px;
+    border: none;
+    color: lightgreen;
+}
+
+.send_button:hover{
+    color: white;
+    background-color: limegreen;
+}
+
+.error {
+    border: 2px solid red;
 }
