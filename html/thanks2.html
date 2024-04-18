@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>verification</title>
+    <title>Verification</title>
     <link rel="stylesheet" href="../css/nav.css">
     <style>
         body {
@@ -39,6 +39,17 @@
             color: white;
             
         }
+        #timer {
+            position: fixed;
+            top: 76%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #303030;
+            padding: 3px 20px;
+            border-radius: 100px;
+            font-style: arial;
+            color: white;
+        }
     </style>
 </head>
 
@@ -65,7 +76,7 @@
         <br>
         <br>
         <div class="thank-you">
-            <strong><h2 style="font-style: arial;">Thank you for purchase</h2></strong> 
+            <strong><h2 style="font-style: arial;">Thank you for your purchase</h2></strong> 
             <br>
             <br>
             <br>
@@ -73,5 +84,20 @@
         </div>
     </main>
 
+    <div id="timer">15</div>
+
+    <script>
+        
+        var seconds = 15; 
+        function countdown() {
+            seconds--;
+            document.getElementById("timer").innerHTML = seconds;
+            if (seconds <= 0) {
+                clearInterval(timerInterval);
+                window.location.href = "../homepage.html"; 
+            }
+        }
+        var timerInterval = setInterval(countdown, 1000);
+    </script>
 </body>
 </html>
