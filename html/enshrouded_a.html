@@ -14,26 +14,38 @@
             font-family: Arial, sans-serif;
             background-color: #2a475e;
         }
+
+        .carousel-control-next:hover {
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .carousel-control-prev:hover {
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        .carousel-indicators{
+            background-color: rgba(0,0,0,0.3);
+            bottom: -40px
+        }
     </style>
 </head>
 <body>
 <header>
     <div class="logo-container">
-        <img src="/images/LOGO.png" alt="LIDL" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
-
-        <img src="/images/LIDL.png" style="max-width: 80%; height: auto; display: block; margin: 0 auto;">
-    </div>
-
-
-
+        <a href="../homepage.html">
+            <img src="../images/LOGO.png" alt="LIDL" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+        </a>
+        <a href="../homepage.html">
+            <img src="../images/LIDL.png" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+        </a>
     </div>
 </header>
 <nav>
     <ul>
-        <li><strong><a href="html/store_a.html">Store</a></strong></li>
-        <li><strong><a href="html/community.html">Community</a></strong></li>
-        <li><strong><a href="#">About</a></strong></li>
-        <li><strong><a href="#">Support</a></strong></li>
+        <li><strong><a href="store_a.html">Store</a></strong></li>
+        <li><strong><a href="profile.html">Community</a></strong></li>
+        <li><strong><a href="about.html">About</a></strong></li>
+        <li><strong><a href="support.html">Support</a></strong></li>
     </ul>
 </nav>
 <div class="game_base_div">
@@ -41,6 +53,7 @@
         <label class="game_title"><strong>Enshrouded</strong></label>
     </div>
     <div class="game_showcase_container">
+        <div>
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
             <!-- Indicators/dots -->
@@ -71,15 +84,59 @@
                 <span class="carousel-control-next-icon"></span>
             </button>
         </div>
-        <div>
-            <div class="game_showcase_right">
-                <img src="/images/enshrouded.jpg" alt="Enshrouded Thumbnail" style="width: 100%">
+        </div>
+        <div class="game_showcase_right">
+            <img src="/images/enshrouded.jpg" alt="Enshrouded Thumbnail" style="width: 100%">
+            <div>
+                <p>You are Flameborn, last ember of hope of a dying race. Awaken, survive the terror of a corrupting fog, and reclaim the lost beauty of your kingdom. Venture into a vast world, vanquish punishing bosses, build grand halls and forge your path in this co-op survival action RPG for up to 16 players.</p>
+                <p>Rating: Mostly positive</p>
+                <p>Release date: 11.2.2024</p>
+                <p>Developer: Keen Games GmbH</p>
+                <p>Publisher: Keen Games GmbH</p>
+
+                <div class="wishlist_tag_container">
+                    <button class="tag_button">Survival</button>
+                    <button class="tag_button">Survival</button>
+                    <button class="tag_button">Survival</button>
+                    <button class="tag_button">Survival</button>
+                    <button class="tag_button">Survival</button>
+                </div>
+
             </div>
-            <p>You are Flameborn, last ember of hope of a dying race. Awaken, survive the terror of a corrupting fog, and reclaim the lost beauty of your kingdom. Venture into a vast world, vanquish punishing bosses, build grand halls and forge your path in this co-op survival action RPG for up to 16 players.</p>
-            <p>Rating</p>
-            <p>Release date</p>
-            <p>Developer</p>
-            <p>Publisher</p>
+        </div>
+        <div class="game_editions">
+            <div class="game_buy_button_container">
+                <label class="game_buy_container_label">
+                    BUY Enshrouded
+                </label>
+                <div>
+                    <label class="game_buy_container_label">
+                        29.99€
+                    </label>
+                    <button class="game_buy_button">
+                        Add to cart
+                    </button>
+                </div>
+
+            </div>
+            <div class="game_buy_button_container">
+                <label class="game_buy_container_label">
+                    BUY Enshrouded: Into the Shroud
+                </label>
+                <div>
+                    <label class="game_buy_container_label">
+                        49.99€
+                    </label>
+                    <button class="game_buy_button">
+                        Add to cart
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="game_showcase_right">
+
         </div>
     </div>
 
