@@ -5,11 +5,10 @@ work in progress
 **Downloading the project:**
 
 ```bash
-mkdir Wtech
-
-cd Wtech
 
 git clone https://github.com/martinpolerecky/Wtech.git
+
+cd Wtech
 
 ```
 
