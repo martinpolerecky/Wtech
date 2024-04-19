@@ -1,0 +1,26 @@
+[
+  {
+    "html_path": "./html/enshrouded_a.html",
+    "title": "Enshrouded",
+    "ratings": "Mostly Positive",
+    "img_path": "../images/enshrouded.jpg",
+    "price": "29.99€",
+    "tags": ["Survival", "Open world", "Co-op", "Base-building"]
+  },
+  {
+    "html_path": "./html/bg3.html",
+    "title": "Baldur's Gate 3",
+    "ratings": "Mostly Positive",
+    "img_path": "../images/bg3tn.jpg",
+    "price": "49.99€",
+    "tags": ["RPG", "Decision based", "Adventure"]
+  },
+  {
+    "html_path": "./html/ror2.html",
+    "title": "Risk of Rain 2",
+    "ratings": "Mostly positive",
+    "img_path": "../images/ror2tn.jpg",
+    "price": "19.99€",
+    "tags": ["TPS", "Rogue-like", "Co-op", "Action"]
+  }
+]
