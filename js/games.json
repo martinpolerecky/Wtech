@@ -1,6 +1,6 @@
 [
   {
-    "html_path": "./html/enshrouded_a.html",
+    "html_path": "./enshrouded_a.html",
     "title": "Enshrouded",
     "ratings": "Mostly Positive",
     "img_path": "../images/enshrouded.jpg",
@@ -8,7 +8,7 @@
     "tags": ["Survival", "Open world", "Co-op", "Base-building"]
   },
   {
-    "html_path": "./html/bg3.html",
+    "html_path": "./bg3.html",
     "title": "Baldur's Gate 3",
     "ratings": "Mostly Positive",
     "img_path": "../images/bg3tn.jpg",
@@ -16,7 +16,7 @@
     "tags": ["RPG", "Decision based", "Adventure"]
   },
   {
-    "html_path": "./html/ror2.html",
+    "html_path": "./ror2.html",
     "title": "Risk of Rain 2",
     "ratings": "Mostly positive",
     "img_path": "../images/ror2tn.jpg",
