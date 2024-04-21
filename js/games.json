@@ -16,6 +16,54 @@
     "tags": ["RPG", "Decision based", "Adventure"]
   },
   {
+    "html_path": "./amogus.html",
+    "title": "Amogus",
+    "ratings": "Mostly Positive",
+    "img_path": "../images/amogustn.jpg",
+    "price": "4.99€",
+    "tags": ["Multiplayer", "Co-op", "Puzzle", "Space"]
+  },
+  {
+    "html_path": "./nfs.html",
+    "title": "NFS: Dobšinský kopec",
+    "ratings": "Mostly Positive",
+    "img_path": "../images/nfstn.jpg",
+    "price": "4.99€",
+    "tags": ["Racing", "Open world", "Multiplayer"]
+  },
+  {
+    "html_path": "./pokemon.html",
+    "title": "Pokemon",
+    "ratings": "Mostly Positive",
+    "img_path": "../images/pokemontn.jpg",
+    "price": "4.99€",
+    "tags": ["Collecting", "Open world", "Co-op"]
+  },
+  {
+    "html_path": "./pay3.html",
+    "title": "Counter Strike 2",
+    "ratings": "Mostly Positive",
+    "img_path": "../images/cs2tn.jpg",
+    "price": "4.99€",
+    "tags": ["FPS", "Shooter", "Multiplayer", "PvP"]
+  },
+  {
+    "html_path": "./pay2.html",
+    "title": "AC Vajnory",
+    "ratings": "Mostly Positive",
+    "img_path": "../images/actn.jpg",
+    "price": "18.99€",
+    "tags": ["RPG", "Open world", "Singleplayer", "History"]
+  },
+  {
+    "html_path": "./pay.html",
+    "title": "GTA VI",
+    "ratings": "Mostly Positive",
+    "img_path": "../images/gtavitn.jpg",
+    "price": "29.99€",
+    "tags": ["Action", "Open world", "Multiplayer"]
+  },
+  {
     "html_path": "./ror2.html",
     "title": "Risk of Rain 2",
     "ratings": "Mostly positive",
