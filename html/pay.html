@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>payment</title>
+    <title>Payment</title>
     <link rel="stylesheet" href="../css/nav.css">
     <style>
         main {
@@ -44,7 +44,7 @@
             height: auto;
         }
         body {
-      background-image: url('https://preview.redd.it/announcement-post-wallpapers-v0-7f4aonjh1p3c1.jpg?width=3440&format=pjpg&auto=webp&s=7e2f234a3dbe6c39366276ef54ed6cae20f967e2');
+      background-image: url('../images/gta.jpg');
       
       background-size: cover; 
       background-position: center; 
@@ -70,14 +70,15 @@
     </ul>
 </nav>
 <main>
-    <h1 style="color: rgb(246, 241, 241);">GTA VI</h1>
+    <h1 id="title"style="color: rgb(246, 241, 241);">GTA VI</h1>
     <p style="color: white;">Buy game for just 29.99 €!</p>
     <br>
     
     <div class="image-container">
-        <img src="../images/gtaa.png" alt="Left Image">
-        <img src="../images/gta.png" width="250" height="auto" alt="Center Image">
-        <img src="../images/gtab.png" alt="Right Image">
+        <img id ="game" src="">
+        <!--
+        <img id ="right"src="">
+        <img id= "left" src="">-->
     </div>
 
    
@@ -101,14 +102,14 @@
 <br>
 
 
-<script>
-    
+<script src = "../js/payment.js">
+    /*
     document.getElementById("paymentForm").addEventListener("submit", function(event) {
         
         event.preventDefault();
        
         this.submit();
-    });
+    });*/
 </script>
 
 </body>

@@ -15,7 +15,6 @@ function validateForm() {
 
     let isValid = true;
 
-    //TODO textcontent colors
     if (email === "" || !email.includes("@")) {
         emailError.textContent = "";
         document.getElementById("email").style.borderColor = "red";
