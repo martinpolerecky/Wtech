@@ -28,12 +28,12 @@
             border-radius: 5px;
         }
         main form button[type="submit"] {
-        display: block;
-        margin: 0 auto;
-        padding: 5px 15px;
-        font-size: 15px; 
-        border-radius: 2px; 
-    }
+            display: block;
+            margin: 0 auto;
+            padding: 5px 15px;
+            font-size: 15px; 
+            border-radius: 2px; 
+        }
         .image-container {
             display: flex;
             justify-content: space-between;
@@ -44,11 +44,22 @@
             height: auto;
         }
         body {
-      background-image: url('https://wallpaper.dog/large/5536113.jpg');
-
-      background-size: cover; 
-      background-position: center; 
-    }
+            background-image: url('https://wallpaper.dog/large/5536113.jpg');
+            background-size: cover; 
+            background-position: center; 
+        }
+        .small-list {
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+            width: 300px;
+            margin: 10px auto;
+        }
+        nav {
+            background-color: #000000de;
+            padding: 10px 0;
+        }
+    
     </style>
 
 </head>
@@ -70,8 +81,15 @@
     </ul>
 </nav>
 <main>
-    <h1 style="color: rgb(246, 241, 241);">Assassin's Creed Vajnory</h1>
-    <p style="color: white;">Buy game for just 18.99 €!</p>
+    <nav>
+        <ul>
+            <li>
+                <h1 style="color: rgb(246, 241, 241);">Assassin's Creed Vajnory</h1>
+                <p style="color: white;">Buy game for just 18.99 €!</p>
+            </li>
+        </ul>
+    </nav>
+    
     <br>
 
     <div class="image-container">
@@ -83,17 +101,17 @@
 
     <div>
         <form id="paymentForm" action="thanks.html" method="post">
-            <label for="card_number" style="color: rgb(244, 240, 240);">Card Number:</label><br>
-<input type="text" id="card_number" name="card_number"><br>
-<label for="expiry_date" style="color: rgb(250, 240, 240);">Expiry Date:</label><br>
-<input type="text" id="expiry_date" name="expiry_date"><br>
-<label for="cvv" style="color: rgb(249, 247, 247);">CVV:</label><br>
-<input type="text" id="cvv" name="cvv"><br><br>
-
-
+            <label for="card_number" style="color: white;"><strong>Card Number:</strong></label><br>
+            <input type="text" id="card_number" name="card_number"><br>
+            <label for="expiry_date" style="color: white;"><strong>Date:</strong></label><br>
+            <input type="text" id="expiry_date" name="expiry_date"><br>
+            <label for="cvv" style="color: white;"><strong>CVV:</strong></label><br>
+            <input type="text" id="cvv" name="cvv"><br><br>
+    
             <button type="submit">Pay card</button>
         </form>
     </div>
+    
 
 </main>
 
