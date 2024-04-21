@@ -43,6 +43,12 @@
             max-width: 30%;
             height: auto;
         }
+        #paymentForm {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+        }
         body {
       background-image: url('../images/gta.jpg');
       
@@ -70,18 +76,14 @@
     </ul>
 </nav>
 <main>
-    <h1 id="title"style="color: rgb(246, 241, 241);">GTA VI</h1>
-    <p style="color: white;">Buy game for just 29.99 €!</p>
+    <h1 id="title">GTA VI</h1>
+    <p id='price' >Buy game for just 29.99 €!</p>
     <br>
     
     <div class="image-container">
         <img id ="game" src="">
-        <!--
-        <img id ="right"src="">
-        <img id= "left" src="">-->
     </div>
 
-   
     <div>
         <form id="paymentForm" action="thanks.html" method="post">
             <label for="card_number">Card Number:</label><br>
@@ -102,15 +104,14 @@
 <br>
 
 
-<script src = "../js/payment.js">
-    /*
+<script src = "../js/payment.js"></script>
+<script>
     document.getElementById("paymentForm").addEventListener("submit", function(event) {
         
         event.preventDefault();
        
         this.submit();
-    });*/
+    });
 </script>
-
 </body>
 </html>
