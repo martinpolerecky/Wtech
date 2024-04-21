@@ -31,12 +31,6 @@ function setImage() {
             document.getElementById('title').style.color = 'white';
             document.getElementById('price').style.color = 'white';
             break;
-        case 'gta':
-            document.getElementById('game').src = '../images/gta.png';
-            document.querySelector('style').textContent = document.querySelector('style').textContent.replace("background-image: url('../images/gta.jpg');", "background-image: url('../images/gtaa.png');");
-            document.getElementById('price').innerText = '29.99€';
-            document.getElementById('title').innerText = 'GTA VI';
-            break;
         case 'enshrouded':
             document.getElementById('game').src = '../images/enshrouded.jpg';
             document.querySelector('style').textContent = document.querySelector('style').textContent.replace("background-image: url('../images/gta.jpg');", "background-image: url('../images/enshrouded_wp.jpeg');");
@@ -58,21 +52,7 @@ function setImage() {
             document.getElementById('title').innerText = 'Risk of Rain 2';
             document.getElementById('title').style.color = 'white';
             document.getElementById('price').style.color = 'white';
-            break;   
-        case 'cs2':
-            document.getElementById('game').src = '../images/csgob.png';
-            document.querySelector('style').textContent = document.querySelector('style').textContent.replace("background-image: url('../images/gta.jpg');", "background-image: url('../images/csgoa.png');");
-            document.getElementById('price').innerText = '4.99€';
-            document.getElementById('title').innerText = 'CS 2';
-            break;  
-        case 'creed':
-            document.getElementById('game').src = '../images/creeda.png';
-            document.querySelector('style').textContent = document.querySelector('style').textContent.replace("background-image: url('../images/gta.jpg');", "background-image: url('../images/creedb.png');");
-            document.getElementById('price').innerText = '18.99€';
-            document.getElementById('title').innerText = 'Assassins Creed: Vajnory';
-            document.getElementById('title').style.color = 'white';
-            document.getElementById('price').style.color = 'white';
-            break; 
+            break;
     }
 }
 
@@ -81,11 +61,6 @@ window.onload = setImage;
 
 // Function to redirect to pay.html with image parameter
 function redirectToPay(image) {
-    // when being redirected from the homepage
-    if ((image === 'gta') || (image =='creed') || (image=='cs2')) {
-        window.location.href = `html/pay.html?image=${image}`;
-    }
-    // when being redirected from the game's respective page
-    else(
-    window.location.href = `../html/pay.html?image=${image}`);
+
+    window.location.href = `../html/pay.html?image=${image}`;
 }
