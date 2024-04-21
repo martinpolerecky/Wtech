@@ -37,19 +37,25 @@
         }
         h2 {
             color: white;
-            
         }
-        #timer {
+        #emailInput {
             position: fixed;
-            top: 76%;
+            top: 81%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background-color: #303030;
-            padding: 3px 20px;
-            border-radius: 100px;
+            background-color: #3a3a3a;
+            padding: 20px 30px;
+            border-radius: 20px;
             font-style: arial;
             color: white;
         }
+        #confirmationMessage {
+    display: none;
+    color: white;
+    margin-top: 25px;
+    text-align: center; 
+}
+
     </style>
 </head>
 
@@ -84,20 +90,27 @@
         </div>
     </main>
 
-    <div id="timer">15</div>
+    <form id="emailInput" onsubmit="submitEmail(event)">
+        <label for="email" style="color: white;">Enter your email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="confirmationMessage"></div>
 
     <script>
-        
-        var seconds = 15; 
-        function countdown() {
-            seconds--;
-            document.getElementById("timer").innerHTML = seconds;
-            if (seconds <= 0) {
-                clearInterval(timerInterval);
-                window.location.href = "../homepage.html"; 
-            }
+        function submitEmail(event) {
+            event.preventDefault();
+            var email = document.getElementById('email').value;
+
+            document.getElementById('emailInput').style.display = 'none';
+            document.getElementById('confirmationMessage').style.display = 'block';
+            document.getElementById('confirmationMessage').innerText ='Everything went successfully, the game will be sent to your email.';
         }
-        var timerInterval = setInterval(countdown, 1000);
+
+        setTimeout(function(){
+            window.location.href = "../homepage.html"; 
+        }, 60000); 
     </script>
 </body>
 </html>
