@@ -1,3 +1,4 @@
+// Game rating validation
 window.onload = function() {
     let form = document.getElementById('rating_form');
 

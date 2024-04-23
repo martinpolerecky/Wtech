@@ -1,9 +1,6 @@
 .base_store_div {
     display: flex;
     flex-flow: row wrap;
-    border-style: solid;
-    border-width: thick;
-    border-color: black;
     justify-content: space-around;
     width: 80vw;
     position: relative;
@@ -83,9 +80,6 @@
 .base_wishlist_div {
     display: flex;
     flex-flow: column;
-    border-style: solid;
-    border-width: thick;
-    border-color: black;
     justify-content: space-around;
     width: 80vw;
     position: relative;
