@@ -26,7 +26,7 @@ git clone https://github.com/martinpolerecky/Wtech.git
 cd Wtech
 ```
 
-To display the web pages, simply open __[homepage.html]__(homepage.html) with your browser of choice by right-clicking on the file and selecting 'open with'
+To display the web pages, simply open [homepage.html](homepage.html) with your browser of choice by right-clicking on the file and selecting 'open with'
 
 Alternatively, you can open homepage.html from the command line as follows:
 
@@ -37,20 +37,19 @@ open homepage.html
 
 To ensure every functionality is working properly, you'll have to start a local development http server. This is needed because the JS code uses the fetch API. 
 
-Luckily the IDE __[Webstorm]__(https://www.jetbrains.com/webstorm/) from JetBrains takes care of this and when a .html file is launched from the IDE it automatically launches a dev server.
+Luckily the IDE [Webstorm](https://www.jetbrains.com/webstorm/) from JetBrains takes care of this and when a .html file is launched from the IDE it automatically launches a dev server. <br />
 If the IDE is not available to you, one can simply start a local dev server, for example with python:
 
-On **Windows**, navigate to the directory where the files are stored e.g.: C:\Path\Wtech
-Open __CMD__ or __PowerShell__ and type:
+On **Windows**, navigate to the directory where the files are stored e.g.: C:\Path\Wtech, open __CMD__ or __PowerShell__ and type:
 ```bash
 py -m http.server
 ```
 Open a browser of your choice and go to the URL: **localhost:8000**
-This way all the files are served from the local dev server
+This way all the files are served from the local dev server. <br />
 To shut it down just press **Ctrl + C**
 
 
-On **Linux** devices, this can be achieved using the __Apache__ HTTP server.
+On **Linux** devices, this can be achieved using the __Apache__ HTTP server. <br />
 For Debian based distributions:
 ```bash
 sudo apt update
