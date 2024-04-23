@@ -5,15 +5,18 @@ Vanilla HTML/CSS/JS website project for the 'Web technologies' course.
 **Contributors**:
 
 **Adrián Ivančík** ([Csirifisz](https://github.com/Csirifisz))
+
 - HTML: homepage, store, wishlist, Enshrouded, Risk of Rain 2, Baldur's Gate 3
 - CSS:  css_a
 - JS:   game_rating, games.json, store
 
 **Daniel Macejko** ([maci84581](https://github.com/maci84581))
+
 - HTML: homepage, profile, GTA VI (pay1), CS:2 (pay2), Assassin's Creed (pay3), thanks, thanks2
 - CSS:  nav
 
 **Martin Polerecký** ([martinpolerecky](https://github.com/martinpolerecky))
+
 - HTML: homepage, support, about, pay, system requirements, Need For Speed, Amogus, Pokemon
 - CSS:  games_m, about
 - JS:   support, payment
@@ -31,6 +34,7 @@ To display the web pages, simply open [homepage.html](homepage.html) with your b
 Alternatively, you can open homepage.html from the command line as follows:
 
 Windows/macOS/Linux
+
 ```bash
 open homepage.html
 ```
@@ -41,16 +45,20 @@ Luckily the IDE [Webstorm](https://www.jetbrains.com/webstorm/) from JetBrains t
 If the IDE is not available to you, one can simply start a local dev server, for example with python:
 
 On **Windows**, navigate to the directory where the files are stored e.g.: C:\Path\Wtech, open __CMD__ or __PowerShell__ and type:
+
 ```bash
 py -m http.server
 ```
+
 Open a browser of your choice and go to the URL: **localhost:8000**
 This way all the files are served from the local dev server. <br />
-To shut it down just press **Ctrl + C**
+To shut it down just press **Ctrl + C**. 
 
+The same should work for **MAC OS**, with the MAC specific commands.
 
 On **Linux** devices, this can be achieved using the __Apache__ HTTP server. <br />
 For Debian based distributions:
+
 ```bash
 sudo apt update
 
@@ -58,13 +66,16 @@ sudo apt install apache2
 
 cd /etc/apache2
 ```
+
 Using a text editor, modify  **ports.conf** to include the following line:
+
 ```bash
 Listen 63342
 ```
 
 Additionaly, you need to set up a virtual host by either creating a separate .conf file or modifying the **000-default.conf** file in __/etc/apache2/sites-available__
 to include the following lines:
+
 ```bash
 DocumentRoot /path/to/dir/Wtech
 
