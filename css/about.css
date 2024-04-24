@@ -105,9 +105,7 @@
         a {
             color: white;
             font-weight: bold;
-        }
-        
-        
+        }      
         div.text-box {
             position: relative;
             top: 70%; 
@@ -187,7 +185,7 @@
             margin-right: auto;
             width: 50px;
             height: 50px;
-            transform: translate(-520%, -720%);
+            transform: translate(-400%, -720%);
         }
         img#mail {
             display: block;
@@ -195,7 +193,7 @@
             margin-right: auto;
             width: 50px;
             height: 50px;
-            transform: translate(-620%, -1488%);
+            transform: translate(-500%, -1500%);
         }
         img#tech {
             display: block;
@@ -256,6 +254,3 @@
         form{
             transform: translate(20%, 0%);
         }
-     
-        
-        
