@@ -14,6 +14,7 @@ Vanilla HTML/CSS/JS website project for the 'Web technologies' course.
 
 - HTML: homepage, profile, GTA VI (pay1), CS:2 (pay2), Assassin's Creed (pay3), thanks, thanks2
 - CSS:  nav
+- JS:   pay javas
 
 **Martin Polerecký** ([martinpolerecky](https://github.com/martinpolerecky))
 
